@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "My Mom’s Unconditional Love",
+    "date": "2025-05-12",
+    "category": "Inspiration",
+    "readingTime": 3,
+    "excerpt": "A mother is not just the one who gave us life — she is the quiet strength behind our every triumph, the voice of reason when we're lost, and the heart that never stops believing in us. Her love is patient, enduring, and unconditional — a gentle force that shapes who we become. Through her sacrifices, laughter, lessons, and limitless compassion, she teaches us not only how to live, but how to love. A mother is a timeless inspiration — a reminder that the purest kind of strength is often wrapped in softness...",
+    "imageUrl": "/mom.png"
+  },
+  {
+    "id": "2",
+    "title": "Sunday Mornings with Mom",
+    "date": "2025-05-10",
+    "category": "Stories",
+    "readingTime": 2,
+    "excerpt": "Waking up to the smell of parathas and her warm hug...",
+    "imageUrl": "/paratha.jpeg"
+  },
+  {
+    "id": "3",
+    "title": "trips with Mom",
+    "date": "2025-05-14",
+    "category": "Trips",
+    "readingTime": 2,
+    "excerpt": "Every trip with Mom is a journey filled with love, laughter, and unforgettable memories. Whether it's a quiet getaway to a cozy cabin, a sunny beach vacation, or an adventurous road trip, these moments become the stories we cherish forever. Traveling together lets us see the world through her eyes — full of wonder, kindness, and curiosity. It’s not just the destinations that matter, but the time spent side by side, sharing smiles, conversations, and new experiences that deepen our bond. Every trip with Mom is a gift — a chance to celebrate her spirit and create lasting joy together.",
+    "imageUrl": "/trip.jpeg"
+  }
+]
