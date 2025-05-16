@@ -1,13 +1,7 @@
 import { notFound } from 'next/navigation';
 import { stories } from '@/data/stories';
 
-type Props = {
-  params: {
-    id: string;
-  };
-};
-
-export default function StoryDetailPage({ params }: Props) {
+export default function StoryDetailPage({ params }: { params: { id: string } }) {
   const storyId = Number(params.id);
   const story = stories.find((s) => s.id === storyId);
 

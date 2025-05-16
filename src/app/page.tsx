@@ -1,5 +1,5 @@
 'use client'; // ✅ Required for useState to work in this file
-
+import Image from 'next/image'; 
 import Link from 'next/link';
 import articles from '@/data/articles.json';
 import HeroCarousel from '@/components/HeroCarousel';
@@ -44,11 +44,13 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredArticles.map((article) => (
               <article key={article.id} className="bg-white p-4 rounded shadow-md">
-                <img
-                  src={article.imageUrl}
-                  alt={article.title}
-                  className="w-64 h-48 object-cover rounded"
-                />
+                <Image
+  src={article.imageUrl}
+  alt={article.title}
+  width={256}  // adjust width as per design
+  height={192} // adjust height as per design
+  className="rounded object-cover"
+/>
                 <h4 className="text-lg font-semibold mt-2">{article.title}</h4>
                 <p className="text-sm text-gray-600">
                   {article.date} · {article.category} · {article.readingTime} min read
