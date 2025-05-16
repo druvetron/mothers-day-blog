@@ -1,4 +1,3 @@
-// app/stories/[id]/page.tsx
 import { notFound } from 'next/navigation';
 import { stories } from '@/data/stories';
 
@@ -9,7 +8,7 @@ type Props = {
 };
 
 export default function StoryDetailPage({ params }: Props) {
-  const storyId = parseInt(params.id);
+  const storyId = Number(params.id);
   const story = stories.find((s) => s.id === storyId);
 
   if (!story) return notFound();
